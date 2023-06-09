@@ -1,7 +1,7 @@
 const catchError = require('../utils/catchError');
 const { uploadToCloudinary } = require('../utils/cloudinary');
 const GameImg = require('../models/GameImg');
-const Game = require('../models/game');
+const Game = require('../models/Game');
 
 const getAll = catchError(async(req, res) => {
     const images = await GameImg.findAll();
