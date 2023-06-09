@@ -3,7 +3,7 @@ const Category = require("./Category");
 const GameImg = require("./GameImg");
 const Purchase = require("./Purchase");
 const User = require("./User");
-const Game = require("./game");
+const Game = require("./Game");
 
 //? relationship category -game //
 
