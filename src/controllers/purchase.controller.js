@@ -1,6 +1,6 @@
 const catchError = require('../utils/catchError');
 const Purchase = require('../models/Purchase');
-const Game = require('../models/game');
+const Game = require('../models/Game');
 const Cart = require('../models/Cart');
 
 const getAll = catchError(async (req, res) => {
